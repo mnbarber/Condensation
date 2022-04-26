@@ -1,5 +1,7 @@
 # Condensation
 
+https://github.com/mnbarber/Condensation
+
 This is a video game database where users can create an account, view games, wishlist games, and write reviews for games they enjoyed! This site is influenced by Steam. 
 
 ## Key Features:
