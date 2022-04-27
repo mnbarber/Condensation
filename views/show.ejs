@@ -19,5 +19,17 @@
     <form method="POST" action="/games/<%= oneGame._id%>?_method=DELETE">
         <input type="submit" value="Delete Game"/>
     </form>
+
+    <section>
+        <h2>Game Reviews</h2>
+        <div>
+            <h3>Create a Review:</h3>
+            <form method="POST" action="/reviews">
+                <input name="rating" type="number"/>
+                <input name="content" type="text"/>
+                <input type="hidden" name="game" value="<%= oneGame.id %>"/>
+                <input type="submit" value="Share your thoughts!"/>
+            </form>
+    </section>
 </body>
 </html>
