@@ -1,8 +1,26 @@
 img {
-    width: 25vw;
-    height: auto;
+    width: 20vw;
+    height: 25vw;
 }
 
 body {
     background-color: #230e42;
+    color: azure;
+    font-family: 'Raleway', sans-serif;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.games {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    float: left;
+}
+
+a {
+    color: aliceblue;
 }
