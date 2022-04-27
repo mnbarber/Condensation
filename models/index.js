@@ -1,3 +1,4 @@
 module.exports = {
-    Game: require('./Games')
+    Game: require('./Games'),
+    Review: require('./Review')
 }
