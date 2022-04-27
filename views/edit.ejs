@@ -11,7 +11,7 @@
     <div>
         <form method="POST" action="/games/<%= game._id %>?_method=PUT">
             <div>
-                <label>Game name</label>
+                <label>Game title</label>
                 <input type="text" name="title" value="<%= game.title%>"/>
             </div>
             <div>
@@ -21,6 +21,10 @@
             <div>
                 <label>Game image</label>
                 <input type="text" name="image" value="<%= game.image%>"/>
+            </div>
+            <div>
+                <label>Game price</label>
+                <input type="number" name="price" value="<%= game.price%>"/>
             </div>
             <div>
                 <input type="submit" value="Edit Game: <% game.name%>"/>
