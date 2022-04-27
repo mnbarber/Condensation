@@ -15,5 +15,8 @@
     <div>
         <a href="/games/<%= oneGame._id %>/edit">Edit <%= oneGame.title %></a>
     </div>
+    <form method="POST" action="/games/<%= oneGame._id%>?_method=DELETE">
+        <input type="submit" value="Delete Game"/>
+    </form>
 </body>
 </html>
