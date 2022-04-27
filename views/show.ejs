@@ -16,8 +16,35 @@
     <div>
         <a href="/games/<%= oneGame._id %>/edit">Edit <%= oneGame.title %></a>
     </div>
+    <div>
+        <a href="/games/<%= oneGame._id %>/review/new">Edit <%= oneGame.title %></a>
+    </div>
     <form method="POST" action="/games/<%= oneGame._id%>?_method=DELETE">
         <input type="submit" value="Delete Game"/>
     </form>
+
+    <!-- <section>
+        <h2>Product Reviews</h2>
+        <div>
+            <h3>Create a review:</h3>
+            <form method="POST" action="/reviews">
+                <input name="rating" type="number"/>
+                <input name="content" type="text" />
+                <input type="hidden" name="game" value="<%=oneGame.id%>"/>
+                <input type="submit" value="Share your thoughts..."/>
+            </form>
+        </div>
+        <% console.log("id", oneGame.id) %>
+        <% console.log("_id", oneGame._id) %>
+        <% for(let i=0;i<allReviews.length;i++){ %>
+            <div>
+                <h3>Rating: <%=allReviews[i].rating %></h3>
+                <p><%=allReviews[i].content %></p>
+                <form action="/reviews/ <%=allReviews[i]._id%>?_method=DELETE" method="POST">
+                <input type="submit" value="delete review"/>
+                </form>
+            </div>
+        <%}%>
+    </section> -->
 </body>
 </html>
