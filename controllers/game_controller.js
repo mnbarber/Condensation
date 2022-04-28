@@ -70,6 +70,7 @@ router.post('/', async (req, res, next) => {
 router.delete('/:id', async (req, res, next) => {
     try {
         const deletedGame = await db.Game.findByIdAndDelete(req.params.id);
+        const deletedReviews = await db.Review.deleteMany({game: req.params.id})
         return res.redirect('/games');
     } catch (error) {
         console.log(error);
