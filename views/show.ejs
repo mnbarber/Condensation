@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/styles/main.css" />
-    <title>Document</title>
+    <title><%= oneGame.title %></title>
 </head>
 <body>
     <nav class="navbar">
@@ -14,8 +14,7 @@
             <a href="/games/new">Add New Game</a>
         </div>
     </nav>
-    <h1>Show Page</h1>
-    <h2><%= oneGame.tltle %></h2>
+    <h2><%= oneGame.title %></h2>
     <small><%= oneGame.release %></small>
     <h3><%= oneGame.price %></h3>
     <img class="game-image" src="<%= oneGame.image %>" alt="<%=oneGame.title %>"/>
