@@ -30,6 +30,14 @@
                 <input type="hidden" name="game" value="<%= oneGame.id %>"/>
                 <input type="submit" value="Share your thoughts!"/>
             </form>
+        </div>
+
+        <% for(let i = 0; i < reviews.length; i++) { %>
+            <div>
+                <h3>Rating: <%= reviews[i].rating %> </h3>
+                <p> <%= reviews[i].content %> </p>
+            </div>
+        <% } %>
     </section>
 </body>
 </html>
