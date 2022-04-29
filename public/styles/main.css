@@ -1,11 +1,11 @@
 img {
     width: 20vw;
     height: 25vw;
+    border-radius: 5%;
 }
 
 img:hover {
-    border-radius: 10%;
-    opacity: 20%;
+    transform: scale(1.2);
 }
 
 body {
@@ -22,10 +22,11 @@ ul {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-evenly;
     float: left;
     padding: 25px;
     line-height: 20%;
+    margin: 10px;
 }
 
 a {
