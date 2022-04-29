@@ -3,6 +3,11 @@ img {
     height: 25vw;
 }
 
+img:hover {
+    border-radius: 10%;
+    opacity: 20%;
+}
+
 body {
     background-color: #230e42;
     color: azure;
@@ -19,8 +24,22 @@ ul {
     flex-wrap: wrap;
     justify-content: space-around;
     float: left;
+    padding: 25px;
+    line-height: 20%;
 }
 
 a {
     color: aliceblue;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #4d3369;
+    color: white;
+}
+
+#title {
+    font-size: 36px;
 }

@@ -10,7 +10,8 @@
 <body>
     <nav class="navbar">
         <div>
-            <a href="/games">Game Library</a>
+            <div id="title">CONDENSATION</div>
+            <a href="/games">Game Library</a> |
             <a href="/games/new">Add New Game</a>
         </div>
     </nav>
@@ -22,8 +23,8 @@
             <% const game = games[i] %>
             <div>
                 <ul class="games">
-                    <li class="game"><a href="/games/<%= game._id %>"><%= game.title %></a>
-                    <p> <img src="<%= game.image %>" alt="<%= game.name %>"/> </p> </li>
+                    <li class="game">
+                    <p><a href="/games/<%= game._id %>"><img src="<%= game.image %>" alt="<%= game.name %>"/> </p></a> </li>
                 </ul>
             </div>
         <% } %>
