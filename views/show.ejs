@@ -14,7 +14,8 @@
             <a href="/games/new">Add New Game</a>
         </div>
     </nav>
-    <h2><%= oneGame.title %></h2>
+    <div class="show">
+    <div id="game-title"><h2><%= oneGame.title %></h2></div>
     <small><%= oneGame.release %></small>
     <h3>$<%= oneGame.price %></h3>
     <img class="game-image" src="<%= oneGame.image %>" alt="<%=oneGame.title %>"/>
@@ -24,10 +25,11 @@
     <form method="POST" action="/games/<%= oneGame._id%>?_method=DELETE">
         <input type="submit" value="Delete Game"/>
     </form>
+    </div>
 
-    <section>
-        <h2>Game Reviews</h2>
-        <div>
+    <section class="reviews">
+        <h2><%= oneGame.title %> Reviews</h2>
+        <div id="review-form">
             <h3>Create a Review:</h3>
             <form method="POST" action="/reviews">
                 <input name="rating" type="number"/>
@@ -38,9 +40,11 @@
         </div>
 
         <% for(let i = 0; i < reviews.length; i++) { %>
-            <div>
+            <div id="review">
                 <h3>Rating: <%= reviews[i].rating %> </h3>
+                <hr>
                 <p> <%= reviews[i].content %> </p>
+                <hr>
                 <form action="/reviews/<%=reviews[i]._id%>?_method=DELETE" method="POST">
                 <input type="submit" value="delete review" />
                 </form>
