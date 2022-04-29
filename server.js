@@ -2,7 +2,7 @@ const express = require('express');
 const methodOverride = require('method-override');
 const controllers = require('./controllers')
 const app = express();
-const PORT = 4000;
+const PORT = process.env.PORT || 4000;
 
 require('./config/db.connection');
 
