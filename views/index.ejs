@@ -10,12 +10,13 @@
 <body>
     <nav class="navbar">
         <div>
-            <div id="title">CONDENSATION</div>
+            <img class="logo" src="https://cdn.discordapp.com/attachments/663490535402504225/969665723951632415/Untitled_design_2.png"/><div id="title">CONDENSATION</div>
             <a href="/games">Game Library</a> |
             <a href="/games/new">Add New Game</a>
         </div>
     </nav>
-    <div>
+    
+    <div class="index-body">
         <% for(let i = 0; i < games.length; i++) { %>
             <% const game = games[i] %>
             <div>
@@ -26,5 +27,6 @@
             </div>
         <% } %>
     </div>
+
 </body>
 </html>
