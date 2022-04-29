@@ -12,6 +12,7 @@ app.use(methodOverride('_method'))
 app.use(express.urlencoded({ extended: false }));
 app.use('/games', controllers.games);
 app.use('/reviews', controllers.reviews);
+app.get('/', (req,res)=>res.redirect('/games'))
 
 
 app.listen(PORT, () => console.log(`Listening on port: ${PORT}`));
