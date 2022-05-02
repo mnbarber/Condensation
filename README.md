@@ -60,5 +60,25 @@ Users are have a library of games to view. In the navigation bar of the applicat
 - User profiles can be created in the application.
 - Create reviews on each individual game's show page.
 
+# Condensation MVP
+
+## Layout
+The application is separated into three sections: the Game Library, the Add New Game, and Edit pages.
+
+### Game Library
+This page shows the list of games that the user has access to. They can click and individual game to show its details.
+
+### Add New Game
+This page allows the user to add new games to the Game Library. The form lets each user to add each game's title, release date, image, and price.
+
+### Game Page
+This page is accessed on each game's show route.
+
+### Edit Game
+This page allows the user to edit an existing game's title, release date, image, and price.
+
+### Reviews
+This function of the application can be accessed through the each individual game's show page. This subsection allows the user to leave as many reviews as they would like for each respective game.
+
 ## Acknowledgments:
 Thank you Olivia for the Condensation logo. It looks absolutely incredible and adds so much to the graphic design of this application.
