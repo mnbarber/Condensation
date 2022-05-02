@@ -78,6 +78,7 @@ This page is accessed on each game's show route.
 
 ### Edit Game
 This page allows the user to edit an existing game's title, release date, image, and price.
+
 ![Screen Shot 2022-05-02 at 1 37 12 PM](https://user-images.githubusercontent.com/102046331/166305495-f0f903ae-b711-4b26-adc7-481e31cce8c3.png)
 
 ### Reviews
