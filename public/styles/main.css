@@ -111,3 +111,10 @@ input:hover {
     background-color: #5e1b16;
     text-decoration: none;
 }
+
+.footer {
+    background-color: #4d3369;
+    box-sizing: border-box;
+    position: relative;
+    float: right;
+}
