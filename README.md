@@ -59,3 +59,6 @@ Users are have a library of games to view. In the navigation bar of the applicat
 ## STRETCH GOALS: 
 - User profiles can be created in the application.
 - Create reviews on each individual game's show page.
+
+## Acknowledgments:
+Thank you Olivia for the Condensation logo. It looks absolutely incredible and adds so much to the graphic design of this application.
