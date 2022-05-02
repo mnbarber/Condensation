@@ -10,10 +10,13 @@
 <body>
     <nav class="navbar">
         <div>
+            <img class="logo" src="https://cdn.discordapp.com/attachments/663490535402504225/969665723951632415/Untitled_design_2.png"/><div id="title">CONDENSATION</div>
             <a href="/games">Game Library</a> | 
             <a href="/games/new">Add New Game</a>
         </div>
     </nav>
+    <div id="page-container">
+        <div class="index-body">
     <div id="game-title"><h2><%= oneGame.title %></h2></div>
     <img class="game-image" src="<%= oneGame.image %>" alt="<%=oneGame.title %>"/>
     <div class="show">
@@ -55,12 +58,12 @@
             </div>
         <% } %>
     </section>
-
+    </div>
     <footer>
         <div class="footer">
             <img class="logo" src="https://cdn.discordapp.com/attachments/663490535402504225/969665723951632415/Untitled_design_2.png"/> @ 2022 Jonathan & Megan, Inc.
         </div>
     </footer>
-
+    </div>
 </body>
 </html>
