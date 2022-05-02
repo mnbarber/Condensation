@@ -67,18 +67,25 @@ The application is separated into three sections: the Game Library, the Add New 
 
 ### Game Library
 This page shows the list of games that the user has access to. They can click and individual game to show its details.
+![Screen Shot 2022-05-02 at 12 57 43 PM](https://user-images.githubusercontent.com/102046331/166303659-55914817-1c9b-4855-b582-fe752681b6a3.png)
+
 
 ### Add New Game
 This page allows the user to add new games to the Game Library. The form lets each user to add each game's title, release date, image, and price.
 
+
 ### Game Page
 This page is accessed on each game's show route.
+![Screen Shot 2022-05-02 at 1 02 33 PM](https://user-images.githubusercontent.com/102046331/166303958-6856edce-74d9-4b26-8e18-657baeabb0a6.png)
+
 
 ### Edit Game
 This page allows the user to edit an existing game's title, release date, image, and price.
 
 ### Reviews
-This function of the application can be accessed through the each individual game's show page. This subsection allows the user to leave as many reviews as they would like for each respective game.
+This function of the application can be accessed through each individual game's show page. This subsection allows the user to leave as many reviews as they would like for each respective game.
+![Screen Shot 2022-05-02 at 1 25 33 PM](https://user-images.githubusercontent.com/102046331/166303858-ff13e810-f299-448e-8c5c-24936cd0aba5.png)
+
 
 ## Acknowledgments:
 Thank you Olivia for the Condensation logo. It looks absolutely incredible and adds so much to the graphic design of this application.
