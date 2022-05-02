@@ -2,19 +2,18 @@
 
 https://github.com/mnbarber/Condensation
 
-This is a video game database where users can create an account, view games, wishlist games, and write reviews for games they enjoyed! This site is influenced by Steam. 
+https://condensation-dev.herokuapp.com/
+
+This is a video game database where users can create an account, view games, wishlist games, and write reviews for games they enjoy! This site is influenced by Steam. 
 
 ## Key Features:
-- view games
-- add new games based on API
-- edit games
+Users are have a library of games to view. In the navigation bar of the application, users can then add new games with title, release date, image, and price fields all being specifications for each game. Editing and deleting of games is also possible after clicking an individual game on the library page. Users can also leave reviews on each game's page and have the option to delete them as well.
 
 ## Design Improvement:
-- updated color scheme
+- Updated color scheme.
 
 ## Database Models:
-- pull from video game API(maybe)
-- games schema
+- The user can add new games to the database through the implementation of a game schema.
 
 ## Game Schema:
 ![image](https://user-images.githubusercontent.com/34723980/165342963-e42ff616-488f-4391-b707-3da3c2e51e99.png)
@@ -43,20 +42,20 @@ This is a video game database where users can create an account, view games, wis
 ![image](https://user-images.githubusercontent.com/34723980/165327388-bb264a22-73a3-414e-a6bd-be8e64d8dece.png)
 
 ### Jonathan's Responsibilities:
-- set up models
+- Setting up the models for the application.
 
 ### Megan's Responsibilities:
-- CSS
+- Finalizing the styling of the application.
 
 ### Collaborations:
-- express app functionality
-- ejs pages
+- Making sure the routes are all working properly.
+- The bulk of the project's functionality and user interactions.
 
 ## MVP GOALS: 
-- game index is viewable
-- can create new game that pulls info from API
-- can edit game info or delete game
+- The user can view game index.
+- The user can add new games to their library.
+- The user can edit and delete game information.
 
 ## STRETCH GOALS: 
-- create users
-- create reviews on game page
+- User profiles can be created in the application.
+- Create reviews on each individual game's show page.
