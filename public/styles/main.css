@@ -9,8 +9,10 @@
 }
 
 .game-image {
-    width: 20vw;
-    height: 25vw;
+    width: 25vw;
+    height: 30vw;
+    float: left;
+    margin: 10vw;
 }
 
 body {
@@ -41,6 +43,7 @@ ul {
 
 a {
     color: aliceblue;
+    text-decoration: none;
 }
 
 
@@ -62,15 +65,14 @@ a {
 
 .show {
     display: flex;
-    flex-direction: row-reverse;
-    justify-content: center;
-    align-content: space-between;
-    margin: 10vw;
-    padding: 10vw;
+    flex-direction: column;
+    padding: 5px;
+    margin: 5px;
+    line-height: 3vw;
 }
 
 h2 {
-    font-size: 24px;
+    font-size: 36px;
     align-self: flex-start;
     padding: 10px;
 }

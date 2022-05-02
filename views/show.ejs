@@ -10,15 +10,17 @@
 <body>
     <nav class="navbar">
         <div>
-            <a href="/games">Game Library</a>
+            <a href="/games">Game Library</a> | 
             <a href="/games/new">Add New Game</a>
         </div>
     </nav>
-    <div class="show">
     <div id="game-title"><h2><%= oneGame.title %></h2></div>
-    <small><%= oneGame.release %></small>
-    <h3>$<%= oneGame.price %></h3>
     <img class="game-image" src="<%= oneGame.image %>" alt="<%=oneGame.title %>"/>
+    <div class="show">
+    
+    <small>Release Date: <%= oneGame.release %></small>
+    <h3>$<%= oneGame.price %></h3>
+    
     <div>
         <a href="/games/<%= oneGame._id %>/edit">Edit <%= oneGame.title %></a>
     </div>
