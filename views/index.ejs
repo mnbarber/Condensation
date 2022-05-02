@@ -15,24 +15,24 @@
             <a href="/games/new">Add New Game</a>
         </div>
     </nav>
-    
-    <div class="index-body">
-        <% for(let i = 0; i < games.length; i++) { %>
-            <% const game = games[i] %>
-            <div>
-                <ul class="games">
-                    <li class="game">
-                    <p><a href="/games/<%= game._id %>"><img id="index" src="<%= game.image %>" alt="<%= game.name %>"/> </p></a> </li>
-                </ul>
-            </div>
-        <% } %>
-    </div>
-
-    <footer>
-        <div class="footer">
-            <img class="logo" src="https://cdn.discordapp.com/attachments/663490535402504225/969665723951632415/Untitled_design_2.png"/> @ 2022 Jonathan & Megan, Inc.
+    <div id="page-container">
+        <div class="index-body">
+            <% for(let i = 0; i < games.length; i++) { %>
+                <% const game = games[i] %>
+                    <div>
+                        <ul class="games">
+                            <li class="game">
+                                <p><a href="/games/<%= game._id %>"><img id="index" src="<%= game.image %>" alt="<%= game.name %>"/> </p></a> </li>
+                        </ul>
+                    </div>
+            <% } %>
         </div>
-    </footer>
 
+        <footer>
+            <div class="footer">
+                <img class="logo" src="https://cdn.discordapp.com/attachments/663490535402504225/969665723951632415/Untitled_design_2.png"/> @ 2022 Jonathan & Megan, Inc.
+            </div>
+        </footer>
+    </div>
 </body>
 </html>
