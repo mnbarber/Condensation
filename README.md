@@ -25,21 +25,6 @@ Users are have a library of games to view. In the navigation bar of the applicat
 
 ## Wireframes:
 
-### Home Page:
-![image](https://user-images.githubusercontent.com/34723980/165319240-85175766-6bb8-446a-8f7e-9c07adb5af9c.png)
-
-### Game Index:
-![image](https://user-images.githubusercontent.com/34723980/165320646-4f7b9eba-eef2-4e21-a0af-9d7eed00f940.png)
-
-### User Profile: STRETCH
-![image](https://user-images.githubusercontent.com/34723980/165321355-397d3401-c55e-4bce-b1f4-8a32d5eaa6d7.png)
-
-### Game Show Page:
-![image](https://user-images.githubusercontent.com/34723980/165328271-fa919dad-b846-4d3f-8562-2b5323c03b6e.png)
-
-### New User Page: STRETCH
-![image](https://user-images.githubusercontent.com/34723980/165327388-bb264a22-73a3-414e-a6bd-be8e64d8dece.png)
-
 ### Jonathan's Responsibilities:
 - Setting up the models for the application.
 
