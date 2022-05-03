@@ -24,9 +24,10 @@ STRETCH GOALS:
 
 ### Wireframes 
 
-SCHEMA: 
+### SCHEMA: 
 ![image](https://user-images.githubusercontent.com/34723980/165345336-9f14da3a-92a2-4f6b-a2d0-a47f0ba7e1fc.png)
-ROUTES: 
+
+### ROUTES: 
 /games - GET - index - retrieves all games and lists title and photo
 /games/new - GET - new - form to create a new game 
 /games/:id - GET - show - retrieve one game with more info 
